@@ -19,9 +19,10 @@ SalesInfo::~SalesInfo() {
 int datavalue[] = {1 , 30 , 48, 50, 60, 100, 120, 200};
 // displaying the data which has been sold in recent months
 void SalesInfo::displayData(){
+	cout << "Items which has been sold are as follow: "<<endl;
 	cout << "--------------------------------------------" <<endl;
 	for(int i : datavalue){
-		cout<< "Value: " << i <<endl;
+		cout<< "Item number : " << i <<endl;
 	}
 
 }
