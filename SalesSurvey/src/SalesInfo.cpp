@@ -15,7 +15,7 @@ SalesInfo::SalesInfo() {
 SalesInfo::~SalesInfo() {
 	// TODO Auto-generated destructor stub
 }
-int datavalue[] = {1 , 30 , 48};
+int datavalue[] = {1 , 30 , 48, 50, 60};
 void SalesInfo::displayData(){
 	cout << "--------------------------------------------" <<endl;
 	for(int i : datavalue){
