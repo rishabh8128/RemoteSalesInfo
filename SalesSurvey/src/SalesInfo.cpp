@@ -16,7 +16,7 @@ SalesInfo::~SalesInfo() {
 	// TODO Auto-generated destructor stub
 }
 // values of the data which has been sold in recent months
-int datavalue[] = {1 , 30 , 48, 50, 60};
+int datavalue[] = {1 , 30 , 48, 50, 60, 100, 120, 200};
 // displaying the data which has been sold in recent months
 void SalesInfo::displayData(){
 	cout << "--------------------------------------------" <<endl;
